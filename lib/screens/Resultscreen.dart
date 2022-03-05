@@ -20,6 +20,7 @@ class _ResultscreenState extends State<Resultscreen> {
   Widget build(BuildContext context) {
     double heightScreen = MediaQuery.of(context).size.height;
     double widthScreen = MediaQuery.of(context).size.width;
+    var isPotrait = MediaQuery.of(context).orientation == Orientation.portrait;
 
     void _launchURL() async {
       const url = 'https://inozura.github.io/my';
@@ -56,7 +57,7 @@ class _ResultscreenState extends State<Resultscreen> {
                                 Text(
                                   'Hasil Prediksi',
                                   style: GoogleFonts.montserrat(
-                                      fontSize: 34,
+                                      fontSize: isPotrait ? 34 : 20,
                                       fontWeight: FontWeight.bold),
                                 ),
                               ],
@@ -76,7 +77,7 @@ class _ResultscreenState extends State<Resultscreen> {
                             ),
                             Image.asset(
                               'assets/img/result_img.png',
-                              width: 230,
+                              width: isPotrait ? 230 : 150,
                               fit: BoxFit.cover,
                             ),
                             SizedBox(

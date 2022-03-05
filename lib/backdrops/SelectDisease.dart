@@ -58,10 +58,12 @@ class _SelectDiseaseState extends State<SelectDisease> {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
+    var isPotrait = MediaQuery.of(context).orientation == Orientation.portrait;
 
     return Container(
       height: height * 0.9,
-      padding: const EdgeInsets.all(18),
+      padding: EdgeInsets.only(
+          top: 18, left: 18, right: 18, bottom: isPotrait ? 18 : 45),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -91,10 +93,10 @@ class _SelectDiseaseState extends State<SelectDisease> {
                   ),
                 ),
               ),
-              const Text(
+              Text(
                 "Pilih Gejala",
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: isPotrait ? 20 : 15,
                   fontWeight: FontWeight.w700,
                 ),
               ),
@@ -106,7 +108,7 @@ class _SelectDiseaseState extends State<SelectDisease> {
 
           // List Disease
           Container(
-            height: height * 0.7,
+            height: isPotrait ? height * 0.7 : height * 0.5,
             child: GridView.builder(
               physics: const BouncingScrollPhysics(),
               scrollDirection: Axis.vertical,
