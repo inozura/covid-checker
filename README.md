@@ -3,10 +3,10 @@
 Application use to predict presentation chance chaught Covid 19 using static Data
 
 <p align="center">
-  <img src="/screenshots/home.png" width="512">
-  <img src="/screenshots/select-modal.png" width="512">
-  <img src="/screenshots/result.png" width="512">
-  <img src="/screenshots/info.png" width="512">
+  <img src="/screenshots/home.png" width="320">
+  <img src="/screenshots/select-modal.png" width="320">
+  <img src="/screenshots/result.png" width="320">
+  <img src="/screenshots/info.png" width="320">
 </p>
 
 ## Package Using
