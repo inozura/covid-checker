@@ -1,7 +1,5 @@
 # Covid 19 - Prediction App
-<hr>
-Application use to predict presentation chance chaught Covid 19 using static Data
-<br>
+<p>Application use to predict presentation chance chaught Covid 19 using static Data</p>
 
 <p align="center">
   <img src="/screenshots/home.png" width="320">
