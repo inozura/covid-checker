@@ -1,12 +1,12 @@
 # Covid 19 - Prediction App
-<hr>
+<br>
 Application use to predict presentation chance chaught Covid 19 using static Data
 
 <p align="center">
-  <img src="/screenshots/home.png" width="256">
-  <img src="/screenshots/select-modal.png" width="256">
-  <img src="/screenshots/result.png" width="256">
-  <img src="/screenshots/info.png" width="256">
+  <img src="/screenshots/home.png" width="512">
+  <img src="/screenshots/select-modal.png" width="512">
+  <img src="/screenshots/result.png" width="512">
+  <img src="/screenshots/info.png" width="512">
 </p>
 
 ## Package Using
