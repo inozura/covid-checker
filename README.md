@@ -1,16 +1,20 @@
-# covid19_checker
+# Covid 19 - Prediction App
+<hr>
+Application use to predict presentation chance chaught Covid 19 using static Data
 
-A new Flutter project.
+![Homescreen](/screenshots/home.png)
+![Modal](/screenshots/select-modal.png)
+![Result](/screenshots/result.png)
+![Info](/screenshots/info.png)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Package Using
 
-A few resources to get you started if this is your first Flutter project:
+- backdrop_modal_route: ^2.0.2
+- giffy_dialog: ^1.8.0
+- google_fonts: ^2.3.0
+- url_launcher: ^6.0.20
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## To Do
+- Integration with Model Machine Learning
+- Add Realtime tracker API Covid 19
